@@ -3,16 +3,16 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-process.env.OWNER_NUMBER = process.env.OWNER_NUMBER || '237620114014'
+process.env.OWNER_NUMBER = process.env.OWNER_NUMBER || '254704897825'
 global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://nmakuthi9:zauyG2A6mzLvoWZP@nicholasbots.majukkb.mongodb.net/?retryWrites=true&w=majority&appName=NicholasBots"
 global.port= process.env.PORT || 5000
-global.email = 'crazycvv@gmail.com'
+global.email = 'nmakuthi9@gmail.com'
 global.github = 'https://github.com/CrazyPrince/CRAZY-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '237620114013'
-global.devs = '237620114013';
+global.sudo = process.env.SUDO || '254704897825'
+global.devs = '254704897825';
 global.website = 'https://github.com/CrazyPrince/CRAZY-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/984e15c49561a5dd9d112.jpg'
 module.exports = {
